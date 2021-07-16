@@ -4,7 +4,7 @@ import './App.css';
 const App = () => {
   return (
     <>
-      <h1>Github Public Respositories</h1>
+      <h1>Github Public Repositories</h1>
     </>
   );
 }
