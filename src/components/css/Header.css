@@ -1,4 +1,6 @@
 h1 {
+    font-size: 40px;
+    padding: 30px;
     min-height: 70px;
     display: flex;
     justify-content: space-around;

@@ -1,0 +1,40 @@
+ul{
+    display: flex;
+    justify-content: center;
+    
+} 
+
+li{
+    /* box-sizing: border-box;
+    overflow: scroll;
+    letter-spacing: 0.6px;
+    line-height: 1.4;
+    display: inline-table;
+    cursor: pointer; */
+
+    width: 80px;
+    height: 25px;
+    margin: 20px 20px;
+    border-radius: 999px;
+    background: #FF4081;
+    cursor: pointer;
+    box-shadow: 2px 8px 20px #FF4081;
+    transition: 0.25s ease; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+#alink {
+    color: #ffffff;
+    float: right;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li:hover {
+    transform: scale(1.2);
+}
+
