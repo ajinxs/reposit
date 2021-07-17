@@ -20,7 +20,8 @@ const Main = ({ repo, loading}) => {
                             <img src={rep.avatar_url} alt=""/>    
                         </a>
 
-                        <p>{repo.url}</p>
+                        <p>{repo.name}</p>
+                        <p>{repo.full_name}</p>
 
                     </div>
 
