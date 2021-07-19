@@ -4,7 +4,7 @@ import './css/Header.css'
 const Header = () => {
     return(
         <>
-            <h1>Github Public Respositories</h1>
+            <h1 data-testId="header">Github Public Respositories</h1>
         </>
     )
 }

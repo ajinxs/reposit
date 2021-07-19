@@ -40,11 +40,11 @@ const App = () => {
     const indexOfFirstRepo = indexOfLastRepo - repoPerPage;
     const currentRepo = repo.slice(indexOfFirstRepo, indexOfLastRepo);
 
-    //change page
+    //Change Page from the number
     const paginate = pageNumber => setCurrentPage(pageNumber)
 
   return (
-    <>
+    <div>
       <Header/>
 
       <Main 
@@ -57,7 +57,7 @@ const App = () => {
         totalRepo={repo.length} 
         paginate={paginate}
       />
-    </>
+    </div>
   );
 }
 

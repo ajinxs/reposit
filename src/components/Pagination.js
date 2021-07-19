@@ -18,7 +18,7 @@ const Pagination = ({ repoPerPage, totalRepo, paginate }) => {
                                 {number}
                             </a>
                         </li>
-                    ))}
+                    ))} 
                 </ul>
             </nav>
         </>
