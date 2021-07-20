@@ -10,9 +10,7 @@ const Main = ({ repo, loading}) => {
     return (
         <div id='repo'>
             {repo.map(rep => (
-
                 <div id="card" key={rep.id}>
-                    
                     <div id='content'>
                         <h3>{rep.login}</h3>
 
@@ -22,15 +20,11 @@ const Main = ({ repo, loading}) => {
 
                         <p>{repo.name}</p>
                         <p>{repo.full_name}</p>
-
                     </div>
-
                 </div>
             ))}
         </div>
-        
         )
-
 }
 
 export default Main;

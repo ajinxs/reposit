@@ -1,17 +1,9 @@
 ul{
     display: flex;
     justify-content: center;
-    
 } 
 
 li{
-    /* box-sizing: border-box;
-    overflow: scroll;
-    letter-spacing: 0.6px;
-    line-height: 1.4;
-    display: inline-table;
-    cursor: pointer; */
-
     width: 80px;
     height: 25px;
     margin: 20px 20px;
@@ -24,7 +16,6 @@ li{
     align-items: center;
     justify-content: center;
     padding: 10px;
-    
 }
 
 #alink {

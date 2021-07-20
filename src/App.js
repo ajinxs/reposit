@@ -11,18 +11,12 @@ const App = () => {
     const [currentPage, setCurrentPage] = useState(1);
     const [repoPerPage] = useState(10);
     
-  // useEffect(() => {
-  //   axios.get('https://jsonplaceholder.typicode.com/posts')
-  //   ANOTHER PUBLIC REPO - https://api.github.com/repositories
-  //                       - https://api.github.com/repositories?since=300
-  //   //axios.get('https://api.github.com/users')
-  //     .then(res => {
-  //       console.log(res)
-  //     })
-  //     .catch(err => {
-  //       console.log(err)  
-  //     })
-  // },[]);
+  /*Some other repositories
+    https://jsonplaceholder.typicode.com/posts
+    https://api.github.com/repositories
+    https://api.github.com/repositories?since=300
+    https://api.github.com/users
+  */
 
     useEffect(() =>{
       const fetchPosts = async () => {

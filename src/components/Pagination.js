@@ -4,6 +4,8 @@ import './css/Pagination.css'
 const Pagination = ({ repoPerPage, totalRepo, paginate }) => {
     
     const pageNumbers = [];
+
+    //It will go thru all the page numbers according to list
     for(let i=1; i<=Math.ceil(totalRepo / repoPerPage ); i++){
         pageNumbers.push(i);
     }
@@ -23,7 +25,6 @@ const Pagination = ({ repoPerPage, totalRepo, paginate }) => {
             </nav>
         </>
     )
-
 }
 
 export default Pagination;
